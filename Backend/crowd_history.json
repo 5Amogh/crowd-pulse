@@ -1,0 +1,23 @@
+[
+  {
+    "station_id": "StationA",
+    "timestamp": "2025-07-06T09:25:00Z",
+    "estimated_people": 120,
+    "train_load_pct": 80,
+    "density": 2.4
+  },
+  {
+    "station_id": "StationA",
+    "timestamp": "2025-07-06T09:35:00Z",
+    "estimated_people": 160,
+    "train_load_pct": 92,
+    "density": 3.1
+  },
+  {
+    "station_id": "StationB",
+    "timestamp": "2025-07-06T09:25:00Z",
+    "estimated_people": 60,
+    "train_load_pct": 45,
+    "density": 1.1
+  }
+]
