@@ -2,10 +2,16 @@
 // Tech Stack: Node.js (Express), Mock Data, Scalable Structure, Historical Trend Logging
 
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const app = express();
 const PORT = 8000;
+
+app.use(cors({
+  origin: 'http://localhost:5173'
+}));
+
 
 const HISTORY_FILE = path.join(__dirname, 'crowd_history.json');
 
